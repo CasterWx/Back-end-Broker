@@ -4,9 +4,9 @@
 
 通过简单的转发就可以完成基本的代理工作了。
 
-![1](https://raw.githubusercontent.com/CasterWx/gitpics/master/img/20200416203856.png)
+![1](img/1.png)
 
-![2](https://raw.githubusercontent.com/CasterWx/gitpics/master/img/20200416203912.png)
+![2](img/2.png)
 
 但是请求参数需要重新包装一下，否则如上图，虽然访问到了google和Facebook的服务器，但对方返回了400，无效请求，所以需要对请求再包装一下。
 
